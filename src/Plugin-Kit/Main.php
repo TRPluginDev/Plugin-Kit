@@ -125,7 +125,7 @@ class main extends PluginBase implements Listener{
                             $sender->getInventory()->setChestplate(Item::get(311, 0, 1));
                             $sender->getInventory()->setLeggings(Item::get(312, 0, 1));
                             $sender->getInventory()->setBoots(Item::get(313, 0, 1));
-                            $sender->sendMessage($prefix."§aTitan §aKitini aldın!");
+                            $sender->sendMessage($prefix."§bYetkili §aKitini aldın!");
                             $ses->getLevel()->addSound(new AnvilFallSound($ses));
                             break;
 
