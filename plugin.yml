@@ -1,1 +1,33 @@
+name: PluginKit
+main: Plugin-Kit\Main
+version: 0.5.0
+api: 2.0.0
+author: TRPluginDev
+load: "STARTUP"
+description: "Kit Plugin"
+
+commands:
+    kit:
+        description: Kit Komutu
+        use: "/kit"
+        permission: kit.command
+
+
+permissions:
+    kit.command:
+        description: "Kit komutu"
+        default: true"
+        default: true
+    kit.oyuncu.command:
+        description: "Oyuncu"
+        default: true
+    kit.yetkili.command:
+        description: "Yetkili"
+        default: op
+    kit.youtube.command:
+        description: "YouTuber"
+        default: op
+    kit.vip.command:
+        description: "Vip"
+        default: op
 
