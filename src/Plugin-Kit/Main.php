@@ -25,7 +25,7 @@ use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\event\player\PlayerPreLoginEvent;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerDropItemEvent;
-use onebone\economyapi\EconomyAPI;
+
 
 class main extends PluginBase implements Listener{
     
