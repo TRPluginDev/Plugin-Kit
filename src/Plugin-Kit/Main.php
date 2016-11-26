@@ -42,7 +42,7 @@ class main extends PluginBase implements Listener{
         switch($command->getName()){
             case "kit":
 			
-			 $sender->sendMessage("§aKitler: §fOyuncu, Vip, Youtuber, Titan, Oduncu, Barbar");
+			 $sender->sendMessage("§aKitler: §fOyuncu, Vip, Youtuber, Yetkili");
             
                 if(isset($args[0])){
                     if($sender instanceof Player){
@@ -108,7 +108,7 @@ class main extends PluginBase implements Listener{
                             $sender->sendMessage($prefix."§bVIP §akitini aldın");
                             $ses->getLevel()->addSound(new AnvilFallSound($ses));
                             break;
-                        case "titan":
+                        case "yetkili":
                             if(!$sender->hasPermission("kit.yetkili.command")){
                             $sender->sendMessage("§cYetkin Yok!");
                             break;
