@@ -31,6 +31,7 @@ class main extends PluginBase implements Listener{
     
     public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        $this->getLogger()->info("Kit Plugin enabled/Aktif");
     }
     
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
