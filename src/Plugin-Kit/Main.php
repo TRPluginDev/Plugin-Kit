@@ -67,7 +67,7 @@ class main extends PluginBase implements Listener{
                             $sender->getInventory()->setLeggings(Item::get(304, 0, 1));
                             $sender->getInventory()->setBoots(Item::get(305, 0, 1));
                             $sender->sendMessage($prefix."§aOyuncu kitini aldın!");
-                            $ses->getLevel()->addSound(new AnvilUseSound($ses));
+                          
                             break;
                         case "youtuber":
                             if(!$sender->hasPermission("kit.youtube.command")){
@@ -87,7 +87,7 @@ class main extends PluginBase implements Listener{
                             $sender->getInventory()->setLeggings(Item::get(308, 0, 1));
                             $sender->getInventory()->setBoots(Item::get(309, 0, 1));
                             $sender->sendMessage($prefix."§4You§fTuber §aKitini aldın");
-                            $ses->getLevel()->addSound(new AnvilUseSound($ses));
+                           
                             break;
                         case "vip":
                             if(!$sender->hasPermission("kit.vip.command")){
@@ -107,7 +107,7 @@ class main extends PluginBase implements Listener{
                             $sender->getInventory()->setLeggings(Item::get(308, 0, 1));
                             $sender->getInventory()->setBoots(Item::get(309, 0, 1));
                             $sender->sendMessage($prefix."§bVIP §akitini aldın");
-                            $ses->getLevel()->addSound(new AnvilFallSound($ses));
+                           
                             break;
                         case "yetkili":
                             if(!$sender->hasPermission("kit.yetkili.command")){
@@ -127,7 +127,7 @@ class main extends PluginBase implements Listener{
                             $sender->getInventory()->setLeggings(Item::get(312, 0, 1));
                             $sender->getInventory()->setBoots(Item::get(313, 0, 1));
                             $sender->sendMessage($prefix."§bYetkili §aKitini aldın!");
-                            $ses->getLevel()->addSound(new AnvilFallSound($ses));
+                           
                             break;
 
                     }       
